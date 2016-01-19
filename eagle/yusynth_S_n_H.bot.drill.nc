@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../YuSynth_SnH/eagle/yusynth_S_n_H.brd)
 (Current profile is .../pcbgcode.repo/profiles/mach.pp  )
-(This file generated 1/13/16 10:32 PM)
+(This file generated 1/18/16 6:59 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 0.0000)
 (spindle speed = 20000.0000)
@@ -16,8 +16,8 @@
 (1.0000  	0.0500  	-0.0040 	-0.0730 )
 (Settings from pcb-defaults.h)
 (isolate min = 0.0010)
-(isolate max = 0.0150)
-(isolate step = 0.0015)
+(isolate max = 0.0170)
+(isolate step = 0.0017)
 (Generated bottom outlines, bottom drill, )
 (Unit of measure: inch)
 ( Tool|       Size       |  Min Sub |  Max Sub |   Count )
@@ -78,9 +78,9 @@ G82 X-0.5800 Y0.7500
 G82 X-0.9900 Y0.4000  
 G82 X-1.2300 Y0.4500  
 G82 X-1.2300 Y0.7500  
-G82 X-1.4200 Y0.8800  
-G82 X-1.5200 Y0.8800  
-G82 X-1.6200 Y0.8800  
+G82 X-1.3200 Y0.9300  
+G82 X-1.4200 Y0.9300  
+G82 X-1.5200 Y0.9300  
 G82 X-1.8300 Y1.1500  
 G82 X-1.9300 Y1.1500  
 G82 X-2.0300 Y1.1500  
@@ -90,8 +90,8 @@ G82 X-2.2300 Y1.1500
 G82 X-2.3300 Y1.1500  
 G82 X-2.4300 Y1.1500  
 G82 X-2.5600 Y1.1500  
-G82 X-2.6800 Y1.2100  
-G82 X-2.6800 Y1.4100  
+G82 X-2.7200 Y1.2100  
+G82 X-2.7200 Y1.4100  
 G82 X-2.7050 Y1.5800  
 G82 X-2.5600 Y1.5500  
 G82 X-2.4300 Y1.4500  

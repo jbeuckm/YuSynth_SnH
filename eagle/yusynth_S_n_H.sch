@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15326,6 +15326,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <pinref part="LIN_LOG" gate="1" pin="O"/>
 <wire x1="139.7" y1="114.3" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
 <junction x="154.94" y="114.3"/>
+<pinref part="IC1" gate="D" pin="OUT"/>
 </segment>
 </net>
 <net name="N$13" class="0">

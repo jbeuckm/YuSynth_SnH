@@ -15423,10 +15423,9 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="195.58" y1="35.56" x2="200.66" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="35.56" x2="200.66" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="35.56" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="P"/>
-<wire x1="200.66" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="66.04" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
