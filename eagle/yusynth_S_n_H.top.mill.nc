@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../YuSynth_SnH/eagle/yusynth_S_n_H.brd)
 (Current profile is .../pcbgcode.repo/profiles/mach.pp  )
-(This file generated 1/18/16 6:59 PM)
+(This file generated 1/20/16 10:10 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 0.0000)
 (spindle speed = 15000.0000)

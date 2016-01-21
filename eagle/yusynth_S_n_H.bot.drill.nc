@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../YuSynth_SnH/eagle/yusynth_S_n_H.brd)
 (Current profile is .../pcbgcode.repo/profiles/mach.pp  )
-(This file generated 1/18/16 6:59 PM)
+(This file generated 1/20/16 10:10 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 0.0000)
 (spindle speed = 20000.0000)
@@ -92,7 +92,6 @@ G82 X-2.4300 Y1.1500
 G82 X-2.5600 Y1.1500  
 G82 X-2.7200 Y1.2100  
 G82 X-2.7200 Y1.4100  
-G82 X-2.7050 Y1.5800  
 G82 X-2.5600 Y1.5500  
 G82 X-2.4300 Y1.4500  
 G82 X-2.3300 Y1.4500  
@@ -116,8 +115,8 @@ G82 X-2.5550 Y2.2300
 G82 X-2.6300 Y2.1000  
 G82 X-2.5550 Y1.9300  
 G82 X-2.5700 Y1.8200  
-G82 X-2.4200 Y1.6800  
-G82 X-2.3050 Y1.5800  
+G82 X-2.4700 Y1.7300  
+G82 X-2.3150 Y1.6300  
 G82 X-2.1000 Y1.5500  
 G82 X-1.9800 Y1.6500  
 G82 X-1.8800 Y2.1200  
@@ -147,7 +146,8 @@ G82 X-3.1800 Y0.5000
 G82 X-2.0800 Y0.5500  
 G82 X-1.9550 Y0.6250  
 G82 X-2.0800 Y0.1500  
-G82 X-2.8200 Y1.6800  
+G82 X-2.7150 Y1.6300  
+G82 X-2.8700 Y1.7300  
 G82 X-3.0300 Y2.1000  
 G82 X-2.4300 Y2.0000  
 M05

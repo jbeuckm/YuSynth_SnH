@@ -2434,6 +2434,8 @@ design rules under a new name.</description>
 <wire x1="59.182" y1="29.8704" x2="57.3532" y2="31.6992" width="0.8128" layer="16"/>
 <wire x1="59.182" y1="29.21" x2="59.182" y2="29.8704" width="0.8128" layer="16"/>
 <wire x1="42.6974" y1="45.2882" x2="43.688" y2="45.339" width="0.8128" layer="16"/>
+<contactref element="IC1" pad="14"/>
+<wire x1="59.182" y1="29.21" x2="61.722" y2="29.21" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$13">
 <contactref element="IC1" pad="12"/>

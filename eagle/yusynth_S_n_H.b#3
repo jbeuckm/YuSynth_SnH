@@ -2481,19 +2481,9 @@ design rules under a new name.</description>
 <wire x1="4.572" y1="19.05" x2="4.572" y2="21.59" width="0.8128" layer="16"/>
 <wire x1="4.572" y1="21.59" x2="5.842" y2="22.86" width="0.8128" layer="16"/>
 </signal>
-<signal name="N$24">
-<contactref element="R12" pad="2"/>
-<contactref element="RATE" pad="1"/>
-<wire x1="17.78" y1="16.4592" x2="15.494" y2="19.1516" width="0.8128" layer="16"/>
-<wire x1="20.7772" y1="12.192" x2="17.78" y2="16.4592" width="0.8128" layer="16"/>
-<wire x1="20.7772" y1="4.2672" x2="20.7772" y2="12.192" width="0.8128" layer="16"/>
-<wire x1="15.494" y1="19.1516" x2="14.732" y2="19.05" width="0.8128" layer="16"/>
-<wire x1="20.7772" y1="4.2672" x2="21.162" y2="3.81" width="0.8128" layer="16"/>
-</signal>
 <signal name="N$25">
 <contactref element="D1" pad="A"/>
 <contactref element="IC2" pad="6"/>
-<contactref element="RATE" pad="2"/>
 <contactref element="R14" pad="1"/>
 <wire x1="30.5308" y1="10.3632" x2="28.0416" y2="10.3632" width="0.8128" layer="16"/>
 <wire x1="28.0416" y1="10.3632" x2="27.4828" y2="10.3632" width="0.8128" layer="16"/>
@@ -2507,8 +2497,9 @@ design rules under a new name.</description>
 <wire x1="20.1676" y1="27.432" x2="19.812" y2="27.94" width="0.8128" layer="16"/>
 <wire x1="26.2636" y1="8.5344" x2="26.2636" y2="4.2672" width="0.8128" layer="16"/>
 <wire x1="26.2128" y1="8.7376" x2="26.2636" y2="8.5344" width="0.8128" layer="16"/>
-<wire x1="26.2636" y1="4.2672" x2="26.162" y2="3.81" width="0.8128" layer="16"/>
 <wire x1="26.2128" y1="8.7376" x2="25.146" y2="10.16" width="0.8128" layer="16"/>
+<contactref element="RATE" pad="2"/>
+<wire x1="26.162" y1="3.81" x2="26.2636" y2="4.2672" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$22">
 <contactref element="R13" pad="2"/>
@@ -2529,6 +2520,11 @@ design rules under a new name.</description>
 <wire x1="31.1404" y1="19.5072" x2="31.1658" y2="19.4818" width="0.8128" layer="16"/>
 <wire x1="35.7378" y1="19.6342" x2="36.068" y2="23.622" width="0.8128" layer="16"/>
 <wire x1="31.1404" y1="19.5072" x2="31.242" y2="19.05" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$12">
+<contactref element="RATE" pad="3"/>
+<contactref element="R12" pad="2"/>
+<wire x1="14.732" y1="19.05" x2="31.162" y2="3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
