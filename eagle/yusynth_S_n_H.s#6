@@ -14834,7 +14834,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 </class>
 </classes>
 <parts>
-<part name="GATE" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
+<part name="GATE_IN_OUT" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
 <part name="OUT" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
 <part name="PWR1" library="eurorack" deviceset="POWER" device=""/>
 <part name="U$1" library="adafruit" deviceset="FB" device=""/>
@@ -14888,7 +14888,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <part name="C3" library="rcl" deviceset="C-US" device="050-024X044" value="680n"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="R11" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
-<part name="S1" library="switch-misc" deviceset="9077-1" device=""/>
+<part name="INT_EXT" library="switch-misc" deviceset="9077-1" device=""/>
 <part name="IC2" library="linear" deviceset="TL071" device="P"/>
 <part name="R12" library="rcl" deviceset="R-US_" device="0207/10" value="2k2"/>
 <part name="R13" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
@@ -14906,7 +14906,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <plain>
 </plain>
 <instances>
-<instance part="GATE" gate="G$1" x="7.62" y="55.88" rot="MR180"/>
+<instance part="GATE_IN_OUT" gate="G$1" x="7.62" y="55.88" rot="MR180"/>
 <instance part="OUT" gate="G$1" x="200.66" y="96.52" rot="R180"/>
 <instance part="PWR1" gate="G$1" x="66.04" y="22.86"/>
 <instance part="U$1" gate="G$1" x="86.36" y="27.94" rot="R90"/>
@@ -14964,7 +14964,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <instance part="C3" gate="G$1" x="157.48" y="91.44"/>
 <instance part="GND8" gate="1" x="157.48" y="78.74"/>
 <instance part="R11" gate="G$1" x="50.8" y="50.8" rot="R270"/>
-<instance part="S1" gate="1" x="119.38" y="68.58" rot="R90"/>
+<instance part="INT_EXT" gate="1" x="119.38" y="68.58" rot="R90"/>
 <instance part="IC2" gate="A" x="177.8" y="35.56"/>
 <instance part="R12" gate="G$1" x="154.94" y="40.64" rot="R90"/>
 <instance part="R13" gate="G$1" x="165.1" y="12.7" rot="R90"/>
@@ -15095,7 +15095,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="48.26" y1="27.94" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GATE" gate="G$1" pin="RING"/>
+<pinref part="GATE_IN_OUT" gate="G$1" pin="RING"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="15.24" y1="48.26" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
 </segment>
@@ -15166,7 +15166,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="GATE" gate="G$1" pin="NORM"/>
+<pinref part="GATE_IN_OUT" gate="G$1" pin="NORM"/>
 <wire x1="20.32" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="PWR1" gate="G$1" pin="GATE"/>
 <wire x1="76.2" y1="15.24" x2="76.2" y2="2.54" width="0.1524" layer="91"/>
@@ -15176,7 +15176,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="GATE" gate="G$1" pin="TIP"/>
+<pinref part="GATE_IN_OUT" gate="G$1" pin="TIP"/>
 <wire x1="25.4" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
@@ -15224,7 +15224,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="50.8" y1="60.96" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="55.88" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
 <junction x="50.8" y="60.96"/>
-<pinref part="S1" gate="1" pin="S"/>
+<pinref part="INT_EXT" gate="1" pin="S"/>
 <wire x1="114.3" y1="71.12" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="71.12" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -15423,10 +15423,9 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="195.58" y1="35.56" x2="200.66" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="35.56" x2="200.66" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="S1" gate="1" pin="P"/>
-<wire x1="200.66" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="66.04" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="35.56" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="INT_EXT" gate="1" pin="P"/>
+<wire x1="200.66" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
